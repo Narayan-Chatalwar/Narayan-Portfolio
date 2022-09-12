@@ -50,7 +50,7 @@ const Home = () => {
             <div>
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1sSM8PgUJaRW1KcvQ4GhI2vZR6I1ro76n/view?usp=sharing"
+                href="https://drive.google.com/file/d/10V7SzzwiwxRcYHAUM2BZ1LZbv8tQLkE2/view?usp=sharing"
               >
                 <button className={styles.buttonresume}>Resume</button>
               </a>
