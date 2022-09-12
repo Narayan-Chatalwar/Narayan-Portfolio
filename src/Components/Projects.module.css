@@ -1,0 +1,137 @@
+.mainprojectscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.headingproje{
+    color: dodgerblue;
+
+}
+.underlineproje{
+    width: 50px;
+    height: 2px;
+    background-color: dodgerblue;
+    margin: auto;
+}
+.headunderproje{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.projecard{
+    height: 110vh;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-around;
+    
+}
+
+@media only screen and (max-width: 600px) {
+.projecard{
+height: 100%;
+width: 65vw;
+}
+
+}
+.mainproje{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 10rem;
+    flex-direction: row;
+}
+.leftproje{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+.rightproje{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+.projeimage{
+    width: 100%;
+    height: 42%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 1px solid gray;
+    transition: transform 0.3s;
+    transition-delay: 0.1s;
+
+
+}
+.projeimage:hover{
+
+transform: scale(1.12);
+
+}
+
+.headingpara{
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    
+}
+.codebutton{
+    
+    border-radius: 10px;
+    background-image: linear-gradient(dodgerblue 60%,rgb(113, 95, 255));
+    color: #ffffff;
+    border: 1px solid gray;
+    margin-right: 8px;
+    position: relative;
+    margin-top: 20px;
+    
+}
+.livebutton{
+    
+    border-radius: 10px;
+    background-image: linear-gradient(dodgerblue 60%,rgb(113, 95, 255));
+    color: #ffffff;
+    border: 1px solid gray;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .mainproje{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 10rem;
+    flex-direction: column;
+}
+
+.leftproje{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+.rightproje{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+}
+
+
+

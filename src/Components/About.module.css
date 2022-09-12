@@ -1,0 +1,121 @@
+.mainabout{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 50rem;
+    padding-top: 100px;
+}
+.headingabout{
+    padding: 3rem;
+    color: rgb(34, 134, 255);
+    /* text-decoration: underline; */
+   font-weight: bolder;
+   
+   
+   
+}
+.aboutcontainer{
+    display: flex;
+    flex-direction: column;
+    padding:40px 40px;
+    text-align: center;
+    line-height: 24px;
+    width: 50vw;
+    line-height: 30px;
+    
+    
+}
+.aboutcontainer>p>a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.underline{
+    
+    justify-content: center;
+    background-color:  rgb(34, 134, 255);
+    height: 2px;
+    width:50px;
+    margin: auto;
+    align-items: center;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+
+}
+.headingname{
+    font-weight: bold;
+}
+.emailpara{
+    font-size: 1rem;
+}
+.blob2{
+    position: absolute;
+    z-index: -20;
+    top: 52rem;
+    width: 40vw;
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .emailpara{
+    font-size: 1rem;
+    text-align: center;
+}
+.underline{
+    
+    justify-content: center;
+    background-color:  rgb(34, 134, 255);
+    height: 2px;
+    width:50px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+
+}
+.headingabout{
+    padding: 1rem;
+    color: rgb(34, 134, 255);
+   font-weight: bolder;
+   
+}
+.headingname{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.aboutcontainer{
+    display: flex;
+    flex-direction: column;
+    padding:40px 40px;
+    text-align: center;
+    line-height: 24px;
+    width: 80vw;
+    
+}
+
+.mainabout{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 50rem;
+    padding-top: 100px;
+}
+
+
+
+
+
+}
+
+/* The typing effect */
+@keyframes typing {
+  
+}

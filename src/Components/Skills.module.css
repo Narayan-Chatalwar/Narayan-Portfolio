@@ -1,0 +1,73 @@
+
+
+
+.mainskills{
+ margin-bottom: 12rem;
+ margin-top: 8rem;
+ padding-top: 100px;
+}
+
+.skillhead{
+    color: dodgerblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.underlineskill{
+    background-color: dodgerblue;
+    height: 2px;
+    width: 50px;
+    margin: auto;
+}
+
+.divcard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 50px;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 1.5rem;
+}
+.skillscontainer{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.leftskills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.rightskills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.imagelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagename{
+    text-align: center;
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .divcard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 1.5rem;
+    
+}
+}

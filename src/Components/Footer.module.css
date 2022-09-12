@@ -1,0 +1,47 @@
+.subfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20rem;
+    line-height: 30px;
+}
+.underlinefooter{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.footerhead{
+    
+color:white;
+}
+.footername{
+    color: white;
+}
+.footermain{
+    background-image: linear-gradient(gray 65%,rgb(43, 54, 89));
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    padding-top: 0.001rem;
+    padding-bottom: 200px;
+    
+    
+}
+.footericonsection{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.footericonsection>div>a{
+    
+    color: white;
+    text-decoration: none;
+}
+.footericonsection>div>a:hover{
+    
+    color: orange;
+}
