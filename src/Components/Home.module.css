@@ -8,14 +8,14 @@
 }
 .myimage {
   border-radius: 50%;
-  width: 20rem;
+  width: 350px;
   position: relative;
   top: -550px;
   right: -200px;
   z-index: 999;
 }
 .nameheading {
-  font-size: 70px;
+  font-size: 60px;
   margin-bottom: 10px;
 }
 .buttonresume {

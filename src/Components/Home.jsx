@@ -23,7 +23,7 @@ const Home = () => {
           width="80%"
           margin="auto"
         >
-          <Box>
+          <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
             <h1 className={styles.nameheading}>Hi 👋,</h1>
             <h1 className={styles.nameheading}>
               I'am <span style={{ color: "royalblue" }}>Narayan</span>
@@ -75,13 +75,12 @@ const Home = () => {
             <Image
               src={narayanchatalwar}
               alt=""
-              htmlWidth="400px"
-              htmlHeight="250px"
               position="relative"
               left="-150px"
              border="5px solid pink"
               borderRadius="50%"
-              height="400px"
+              height="380px"
+              width="1000px"
               zIndex="5"
             />
           </Box>

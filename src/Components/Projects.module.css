@@ -78,6 +78,7 @@ transform: scale(1.12);
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1rem;
+    padding-bottom: 20px;
     
 }
 .codebutton{
@@ -89,6 +90,7 @@ transform: scale(1.12);
     margin-right: 8px;
     position: relative;
     margin-top: 20px;
+    padding: 5px;
     
 }
 .livebutton{
@@ -97,6 +99,7 @@ transform: scale(1.12);
     background-image: linear-gradient(dodgerblue 60%,rgb(113, 95, 255));
     color: #ffffff;
     border: 1px solid gray;
+    padding: 5px;
     
 }
 

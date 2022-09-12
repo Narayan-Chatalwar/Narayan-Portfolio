@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import styles from "./Projects.module.css";
 import bebodywiselogo from "../Atributes/bebodywise.png";
 import natureslogo from "../Atributes/naturesbasket.png";
-import smallcaselogo from "../Atributes/smallcase.png";
-import wetubelogo from "../Atributes/wetube.png";
+import kimayehome from "../Atributes/kimayehome.png";
+import rmhomepage from "../Atributes/rmhomepage.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -24,37 +24,35 @@ const Projects = () => {
             <div className={styles.projecard} data-aos="zoom-out-right">
               <img
                 className={styles.projeimage}
-                src={bebodywiselogo}
+                src={rmhomepage}
                 data-aos="flip-right"
                 alt=""
               />
-              <div className={styles.headingpara}>
-                <h4>Inspired from BeBodywise.com</h4>
+              <div className={styles.headingpara} >
+                <h4 style={{fontWeight:"bold"}}>Inspired by Rentomojo.com</h4>
                 <p style={{ textAlign: "justify" }}>
-                  Bebodywise.com is a website where you can get all products
-                  related to women's health care. You can also get a specialized
-                  doctor's consultation, and also so many reword by referring to
-                  this website. Functionalities - landing page, scroll bars,
-                  login, signup, products page, product detail page, cart page,
-                  checkout page, payment detail page, Refer and Earn section,
-                  Doctors consultation section, Wellness assessment section.
+                  Rentomojo.com is a website where you can get all kind of products like appliances, smartphones, fitness equipments, work from home essientials in simple installments or rents.
+                  Functionalities - landing page,
+                  login, products page, product detail page, cart page,
+                  checkout page, payment detail page, filters.
+                  
                   <br />
-                  <strong> Tech-Stacks used -</strong> HTML, CSS, JAVASCRIPT,
+                  <strong> Tech-Stacks used -</strong> React.js, Redux, Chakra UI, HTML, CSS, JAVASCRIPT,
                   BOOTSTRAP <br /> <strong>Tools -</strong> GitHub,VS code,
-                  Netlify
+                  Netlify, Versel
                   <br />
                   <strong>My tasks - </strong> To build overall json data as
                   well as with some front page div and some pages like refer and
                   earn.
                 </p>
                 <a
-                  href="https://github.com/rahulsinha1996/Project-Bebodywise"
+                  href="https://github.com/Narayan-Chatalwar/Rentomojo-com"
                   target="_blank"
                 >
                   <button className={styles.codebutton}>Code</button>
                 </a>
                 <a
-                  href="https://condescending-ardinghelli-8e76b9.netlify.app/"
+                  href="https://rentomojo-com-theta.vercel.app/"
                   target="_blank"
                 >
                   <button className={styles.livebutton}>Live</button>
@@ -102,35 +100,32 @@ const Projects = () => {
             <div className={styles.projecard} data-aos="zoom-out-right">
               <img
                 className={styles.projeimage}
-                src={smallcaselogo}
+                src={kimayehome}
                 data-aos="flip-right"
                 alt=""
               />
               <div className={styles.headingpara}>
-                <h4>Inspired from Smallcase.com</h4>
+                <h4 style={{fontWeight:"bold"}}>Inspired by kimaye.com</h4>
                 <p style={{ textAlign: "justify" }}>
-                  smallcase.com is a website where you can get the portfolios of
-                  stocks or ETFs, weighted intelligently to track a theme,
-                  strategy, or objective. Functionalities - landing page, scroll
+                  kimaye.com is a website where you can get the best quality and certified fruits in cheaper rates at your doorstep.   
+                   Functionalities - landing page, scroll
                   bars, login, signup, products page, product detail page, cart
                   page, checkout page, payment detail page.
-                  <br /> <strong>Tech-Stacks used -</strong>
-                  HTML, CSS, JAVASCRIPT, BOOTSTRAP. <br />
+                  <br /> <strong>Tech-Stacks used - </strong>
+                  React.js, Redux, Chakra UI, HTML, CSS, JAVASCRIPT, BOOTSTRAP. <br />
                   <strong>Tools - </strong>
-                  GitHub,VS code, Netlify
+                  GitHub, VS code, Netlify, Versel, Heroku
                   <br />
-                  <strong>My tasks - </strong> To build the footer part of the
-                  website by using various clickable links. and some cool alert
-                  animations.
+                  <strong>My tasks - </strong> To Build overall website considering the responsiveness for all kind of devides.
                 </p>
                 <a
-                  href="https://github.com/Narayan-Chatalwar/Smallcase.com-clone"
+                  href="https://github.com/Narayan-Chatalwar/kimaye.com"
                   target="_blank"
                 >
                   <button className={styles.codebutton}>Code</button>
                 </a>
                 <a
-                  href="https://magnificent-valkyrie-61d45d.netlify.app/"
+                  href="https://kimye-com.vercel.app/"
                   target="_blank"
                 >
                   <button className={styles.livebutton}>Live</button>
@@ -138,41 +133,47 @@ const Projects = () => {
               </div>
             </div>
             <div className={styles.projecard} data-aos="zoom-out-right">
+              
+              <div className={styles.projecard} data-aos="zoom-out-right">
               <img
                 className={styles.projeimage}
-                src={wetubelogo}
+                src={bebodywiselogo}
                 data-aos="flip-right"
                 alt=""
               />
               <div className={styles.headingpara}>
-                <h4>Inspired from Youtube.com</h4>
+                <h4>Inspired from BeBodywise.com</h4>
                 <p style={{ textAlign: "justify" }}>
-                  wetube.com is a website where you can watch various kinds of
-                  videos from world. The video service can be accessed on PCs,
-                  laptops, tablets and via mobile phones. youser can search the
-                  populer videos just by using the search feature of the
-                  webpage. It loads fast and you can watch any video like
-                  youtube app. <br />
-                  <strong>Tech-Stacks used -</strong> HTML, CSS, JAVASCRIPT,
-                  BOOTSTRAP, Material UI <br />
-                  <strong>Tools -</strong> GitHub,VS code, Netlify
+                  Bebodywise.com is a website where you can get all products
+                  related to women's health care. You can also get a specialized
+                  doctor's consultation, and also so many reword by referring to
+                  this website. Functionalities - landing page, scroll bars,
+                  login, signup, products page, product detail page, cart page,
+                  checkout page, payment detail page, Refer and Earn section,
+                  Doctors consultation section, Wellness assessment section.
                   <br />
-                  <strong>My tasks - </strong> To build over all website using
-                  the concepts of HTML , CSS, JAVASCRIPT, API calling.
+                  <strong> Tech-Stacks used -</strong> HTML, CSS, JAVASCRIPT,
+                  BOOTSTRAP <br /> <strong>Tools -</strong> GitHub,VS code,
+                  Netlify
+                  <br />
+                  <strong>My tasks - </strong> To build overall json data as
+                  well as with some front page div and some pages like refer and
+                  earn.
                 </p>
                 <a
-                  href="https://github.com/Narayan-Chatalwar/Wetube.com"
+                  href="https://github.com/rahulsinha1996/Project-Bebodywise"
                   target="_blank"
                 >
                   <button className={styles.codebutton}>Code</button>
                 </a>
                 <a
-                  href="https://zealous-bose-6594db.netlify.app"
+                  href="https://condescending-ardinghelli-8e76b9.netlify.app/"
                   target="_blank"
                 >
                   <button className={styles.livebutton}>Live</button>
                 </a>
               </div>
+            </div>
             </div>
           </div>
         </div>
